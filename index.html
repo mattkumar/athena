@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athena</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+    <div class="left-panel">
+        <div style="display: flex; align-items: center;">
+            <h1 class="animate__animated animate__fadeIn" style="animation-delay: 0.5s;">Athena</h1>
+            <div id="hummingbird" class=" animate__animated animate__fadeIn " style="animation-delay: 0.75s;">
+                <svg id="bird" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 785 805.13">
+                    <defs>
+                        <linearGradient id="Dégradé_sans_nom_19" data-name="Dégradé sans nom 19" x1="67.73" y1="821.96" x2="653.38" y2="821.96" gradientTransform="translate(-67.73 -289.06)" gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#c4d2f6"/>
+                            <stop offset=".12" stop-color="#c7d4f6"/>
+                            <stop offset=".49" stop-color="#c6cff4"/>
+                            <stop offset=".74" stop-color="#b58ddf"/>
+                            <stop offset="1" stop-color="#dfcef1"/>
+                        </linearGradient>
+                        <linearGradient id="Dégradé_sans_nom_4" data-name="Dégradé sans nom 4" x1="354.98" y1="574.18" x2="805.63" y2="574.18" gradientTransform="translate(-67.73 -289.06)" gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#c4d2f6"/>
+                            <stop offset=".05" stop-color="#c7d4f6"/>
+                            <stop offset=".4" stop-color="#b58ddf"/>
+                            <stop offset=".68" stop-color="#ccb1e9"/>
+                            <stop offset=".89" stop-color="#dac6ef"/>
+                            <stop offset="1" stop-color="#dfcef1"/>
+                        </linearGradient>
+                        <linearGradient id="Dégradé_sans_nom_7" data-name="Dégradé sans nom 7" x1="367.03" y1="498.86" x2="642.24" y2="498.86" gradientTransform="translate(-67.73 -289.06)" gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#b58ddf"/>
+                            <stop offset=".91" stop-color="#ccb1e9"/>
+                        </linearGradient>
+                    </defs>
+                    <path id="corps" d="m584.4,765.6c-2.3-.9-5.4-1.2-6.8-2.8-9.3-10.7-18.2-21.8-27.2-32.7-4.1-4.9-8.3-9.8-14-14,1.8,5.8,3.5,11.7,5.6,17.4,6.6,18.1,13.5,36,20.1,54,1.4,4.1,2.4,8.4,3,12.7.2,1.6-.8,4.2-2,4.8-1,.5-3.8-.5-4.8-1.7-3.1-3.7-5.9-7.6-8.3-11.8-12.1-21.3-24-42.7-36-64.1-1.5-2.6-3.3-5.1-4.9-7.6l-1.7.6c.8,4.5,1.5,9.1,2.5,13.5,3,13.1,6.5,26.1,8.9,39.3.8,4.3-.1,12.3-2.4,13.2-5.7,2.4-8.8-4-10.6-8.4-5.9-14.4-11.1-29.1-16.5-43.7-.5-1.3-1-2.6-2-5-1.4,4.7-2.1,8.5-3.6,12-.9,2-2.9,4.5-4.7,4.7s-4.6-1.9-5.4-3.7c-3.3-7.7-6.9-15.5-8.7-23.5-6.7-29.8-12.6-59.7-18.9-89.5-1.4-6.6-2.9-13.1-4.8-19.6-6.1-20.8-19-34.8-39.5-43.6-63.6-27.1-112.4-71.1-145.7-131.9-16.4-29.8-34.1-58.5-57.3-83.7-12.7-13.8-27-22.1-46.6-21.6-45.7,1.3-91.3,1.7-137,2.4-5,.1-10-.3-15.1-.5v-2.9c13.4-2.4,26.8-5.1,40.3-7.1,34-5,68-9.7,102-14.4,9.8-1.4,17.2-5.8,23.4-13.8,10.3-13.5,22.6-25.4,39.8-29.5,30.8-7.4,56.3,2.3,77,25.7,4.1,4.7,8.4,9.3,11.8,14.5.2.2.3.5.5.7h0c-.2,4.9.2,9.8,1.3,14.5,0,.1,0,.2.1.3l-5.5,8-1.5.4c-.8.6-1.6,1.3-2.3,1.9l-.1.1c-2.3,2-4.3,4.3-5.9,6.8-6.4,10.3-1.6,21.3,26.4,28.1,36.1,8.8,67.3,16.7,71.4,28.1s26,63.1,82,59.6c1.5-.1,2.9-.2,4.5-.3-.3,3.9.4,7.7,2.1,11.2,23.2,51.4,43.1,104.2,62.1,157.4,12.8,35.9,29.6,70.4,44.3,105.6,4.5,10.6,8.2,21.5,11.9,32.4.3,2.3-.9,5.1-1.2,7.5Z" style="fill: url(#Dégradé_sans_nom_19);"/>
+                    <g class="shake-crazy shake-constant shake-constant--hover" id="aile-face">
+                        <path d="m735,145.4c-7.8,14-16.8,27.4-24.3,41.6-5,9.5-9.5,19.6-12.1,30-4.5,18.4-16.8,29-33,35.3-10.4,4.1-16.1,10.5-18.6,20.8-.2.7-.5,1.4-.6,2.1-4,22-15.5,37.3-37.8,43.3-10.8,2.9-15.6,10.8-17.2,21.5-2.7,17.6-13,29.6-28.8,37.1-30.4,14.4-55.9,36.2-83.6,54.7-3.7,2.5-6.8,6.1-9.6,9.7-55.9,3.2-77.8-45-81.9-55.7s-35.3-18.1-71.4-26.3-33.6-22.9-18.1-34.4c.5-.1.9-.2,1.4-.4,2.1-.5,4.3-1,6.4-1.5h0c122.9-29.3,205.8-104.4,205.8-104.4,3.1-2.3,6.3-4.7,9.4-7,29.1-21.9,59.1-43,93.7-54.6,34.1-11.4,69.4-18.9,104.2-28,2.1-.6,4.3-.8,6.5-.4,4.2.9,10.3,1.3,11.9,4.1s-.3,8.8-2.3,12.5Z" style="fill: url(#Dégradé_sans_nom_4);"/>
+                    </g>
+                    <g class="shake-hard shake-constant" id="aile-dos">
+                        <path  d="m574.3,103.9c-2.2,6.1-4.4,12.3-7.8,17.8-13.9,22.2-28,44.3-42,66.4l-25.9,24.2s-78.8,76.5-196.8,109.4c-1.5-4.3-2.4-8.8-2.5-13.4,2.7.1,5.4-.6,7.8-2,10-5.6,20.2-11.3,29.1-18.5,25.9-21.1,50.9-43.4,76.8-64.4,20.3-16.5,41-32.7,62.4-47.6,29.7-20.9,57.6-44.3,83.4-69.9,2.7-2.7,5.8-5,9.1-7,1.4-.9,4.5-1.4,5.2-.6,1.3,1.5,1.7,3.6,1.2,5.6Z" style="fill: url(#Dégradé_sans_nom_7);"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <h5 class="animate__animated animate__fadeIn" style="animation-delay: 1.15s;">AI-assisted figure interpreatation made <i style="color:#fff">simple</i>.</h5>
+        <hr class="animated-hr">
+        <br/>
+        <form action="/upload" class="dropzone animate__animated animate__fadeIn" style="animation-delay: 2.15s;" id="my-dropzone">
+            <div class="dz-message">Drag and Drop Images Here</div>
+        </form>
+    </div>
+
+    <div class="right-panel" id="rightPanel">
+    </div>
+
+    <div class="footer">
+        <span>Matthew Kumar | </span>
+        <a href="mailto:mattkumar@gmail.com">
+            <i class="fas fa-envelope" style="color: #9b59b6;"></i>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+    <script src="utils.js"></script>
+</body>
+</html>
